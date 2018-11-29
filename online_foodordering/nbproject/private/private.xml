@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/web/post.jsp</file>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/src/java/model/checkdao.java</file>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/src/java/controler/javaconnect.java</file>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/src/java/controler/placeorder.java</file>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/web/userprofile.jsp</file>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/web/signup.jsp</file>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/web/order.jsp</file>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/src/java/controler/confirmmail.java</file>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/src/java/controler/signup.java</file>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/src/java/model/message.java</file>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/web/confirmmail.jsp</file>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/web/location.jsp</file>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/web/resturant.jsp</file>
+            <file>file:/home/rishav/NetBeansProjects/online_foodordering/src/java/model/email.java</file>
+        </group>
+    </open-files>
+</project-private>

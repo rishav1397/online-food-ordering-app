@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:orange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: orangered;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.parallax1{
+    background-image: url('source.gif');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div style="padding-bottom: 20px;padding-top: 20px;" class="navbar">
+            <ul>
+                <li id="li1">
+                    <div class="dropdown">
+  <button class="dropbtn">Locations</button>
+  <div class="dropdown-content">
+    <a href="#">Delhi</a>
+    <a href="#">Chandigarh</a>
+    <a href="#">Mumbai</a>
+  </div>
+</div>
+                </li>
+                     <li style="float: right"><a class="active" href="signin.html" id="a11">Signin</a></li>
+                    <li style="float: right"><a class="active" href="">Cart</a></li>
+                    <li style="float: right"><a class="active" href="contact.html">Contact</a></li>
+                    <li style="float: right"><a class="active" href="index.jsp">Home</a></li>
+                
+            </ul>
+        </div>
+         <div class="row">
+  <div class="column">
+      <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/bmwnevtlf9j4x2w0ovc9" alt="Snow" id="img11">
+  </div>
+  <div class="column">
+      <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/d5mfagoowfi6goyzgloi" alt="Forest"  class="img11">
+  </div>
+  <div class="column">
+      <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/oj0pz7yujty06wie6cur" alt="Mountains"  class="img11">
+  </div>
+            <div class="column">
+      <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rhnay3cqvw3reqc6nnz5" alt="Mountains"  id="img12">
+  </div>
+</div>
+        <div class="parallax"></div>
+     <h1 style="text-align:center; color: orange;font-size: 100px;">Contact Us</h1>
+        <div class="container">
+  <form action="" style="padding-left:500px;padding-right: 500px; background-color: whitesmoke;">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter email" name="email" required>
+<label for="phone"><b>Phone No.</b></label>
+    <input type="text" placeholder="Enter Phone no." name="phone" required>
+    <label for="city">Country</label>
+    <select id="country" name="city">
+      <option value="Chandigarh">Chandigarh</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Chennai">Chennai</option>
+      <option value="Kolkata">Kolkata</option>
+      <option value="Pune">Pune</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <div style="padding-bottom:40px;"><input type="submit" value="Submit"></div>
+  </form>
+</div>
+     <div class="parallax1"></div>
+    </body>
+</html>
